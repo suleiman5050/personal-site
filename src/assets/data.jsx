@@ -1,6 +1,12 @@
-import { FaShip, FaHandshake, FaHome, FaFolderOpen } from "react-icons/fa";
+import {
+  FaShip,
+  FaHandshake,
+  FaHome,
+  FaFolderOpen,
+  FaGear,
+} from "react-icons/fa";
 import { CiWheat } from "react-icons/ci";
-import { BsGear } from "react-icons/Bs";
+// import { BsGear } from "react-icons/Bs";
 // import { AiOutlineFundProjectionScreen } from "react-icons/Ai";
 import { MdPhoneInTalk } from "react-icons/Md";
 import { TbZoomInArea } from "react-icons/Tb";
@@ -38,7 +44,7 @@ export const Links = [
     id: 2,
     url: "/services",
     text: "Services",
-    icon: <BsGear />,
+    icon: <FaGear />,
   },
   {
     id: 3,

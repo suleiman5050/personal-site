@@ -248,7 +248,7 @@ p {
 }
 .services h2 {
   text-align: center;
-  color: var(--clr-grey-10);
+  color: var(--clr-primary-8);
   margin-bottom: 4rem;
 }
 
@@ -267,6 +267,7 @@ p {
 .service .icon {
   font-size: 3rem;
   margin-bottom: 0;
+  color: var(--clr-primary-8);
 }
 
 .service h4 {

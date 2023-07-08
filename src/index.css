@@ -397,10 +397,12 @@ p {
   margin-bottom: 3.5rem;
   line-height: 1.5;
   letter-spacing: 2px;
+  text-align: center;
 }
 .section-title {
+  text-align: center;
+  align-items: center;
   display: flex;
-  justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
@@ -415,10 +417,10 @@ p {
   .project {
     width: 80%;
   }
-  .project-title {
+  /* .project-title {
     display: flex;
     justify-content: space-between;
-  }
+  } */
 }
 
 .news {

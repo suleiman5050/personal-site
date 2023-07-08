@@ -5,7 +5,6 @@ const Projects = () => {
     <section className="section projects">
       <div className="section-title">
         <h2>Featured Projects</h2>
-        {/* <button className="btn ">view all</button> */}
       </div>
       <div className="section-center project-center">
         <article className="project">

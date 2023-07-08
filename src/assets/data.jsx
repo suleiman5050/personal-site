@@ -4,12 +4,14 @@ import {
   FaHome,
   FaFolderOpen,
   FaGear,
+  FaPhoneVolume,
+  FaSearchPlus,
 } from "react-icons/fa";
 import { CiWheat } from "react-icons/ci";
 // import { BsGear } from "react-icons/Bs";
 // import { AiOutlineFundProjectionScreen } from "react-icons/Ai";
-import { MdPhoneInTalk } from "react-icons/Md";
-import { TbZoomInArea } from "react-icons/Tb";
+// import { MdPhoneInTalk } from "react-icons/Md";
+// import { TbZoomInArea } from "react-icons/Tb";
 
 export const services = [
   {
@@ -56,12 +58,12 @@ export const Links = [
     id: 4,
     url: "/Contact",
     text: "Contact",
-    icon: <MdPhoneInTalk />,
+    icon: <FaPhoneVolume />,
   },
   {
     id: 5,
     url: "/about",
     text: "about us",
-    icon: <TbZoomInArea />,
+    icon: <FaSearchPlus />,
   },
 ];

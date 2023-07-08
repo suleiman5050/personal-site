@@ -9,11 +9,7 @@ const News = () => {
       <div className="news-center">
         <article className="main-news">
           <div className="news-container">
-            <img
-              className="big-image"
-              src="./src/assets/images/news1.jpg"
-              alt=""
-            />
+            <img className="big-image" src="./images/news1.jpg" alt="" />
             <span className="date">08 July,2023</span>
           </div>
           <div className="news-desc">
@@ -30,11 +26,7 @@ const News = () => {
         </article>
         <article className="main-news">
           <div className="news-container">
-            <img
-              className="big-image"
-              src="./src/assets/images/news2.jpg"
-              alt=""
-            />
+            <img className="big-image" src="./images/news2.jpg" alt="" />
             <span className="date">08 July,2023</span>
           </div>
           <div className="news-desc">
@@ -51,7 +43,7 @@ const News = () => {
         </article>
         <article className="main-news">
           <div className="news-container">
-            <img src="./src/assets/images/news6.jpg" alt="" />
+            <img src="./images/news6.jpg" alt="" />
             <span className="date">08 July,2023</span>
           </div>
           <div className="news-desc">

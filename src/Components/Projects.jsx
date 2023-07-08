@@ -9,11 +9,7 @@ const Projects = () => {
       <div className="section-center project-center">
         <article className="project">
           <div className="project-container">
-            <img
-              src="./src/assets/images/project-1.jpg"
-              className="project-img"
-              alt=""
-            />
+            <img src="./images/project-1.jpg" className="project-img" alt="" />
           </div>
           <div className="project-info">
             <h4 className="project-title">
@@ -24,11 +20,7 @@ const Projects = () => {
         </article>
         <article className="project">
           <div className="project-container">
-            <img
-              src="./src/assets/images/project-2.jpg"
-              className="project-img"
-              alt=""
-            />
+            <img src="./images/project-2.jpg" className="project-img" alt="" />
           </div>
           <div className="project-info">
             <h4 className="project-title">
@@ -39,11 +31,7 @@ const Projects = () => {
         </article>
         <article className="project">
           <div className="project-container">
-            <img
-              src="./src/assets/images/project-3.jpg"
-              className="project-img"
-              alt=""
-            />
+            <img src="./images/project-3.jpg" className="project-img" alt="" />
           </div>
           <div className="project-info">
             <h4 className="project-title">
@@ -54,11 +42,7 @@ const Projects = () => {
         </article>
         <article className="project">
           <div className="project-container">
-            <img
-              src="./src/assets/images/project-4.jpg"
-              className="project-img"
-              alt=""
-            />
+            <img src="./images/project-4.jpg" className="project-img" alt="" />
           </div>
           <div className="project-info">
             <h4 className="project-title">Sesame seeds ready for export</h4>

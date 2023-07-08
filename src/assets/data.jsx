@@ -3,7 +3,7 @@ import {
   FaHandshake,
   FaHome,
   FaFolderOpen,
-  FaGear,
+  FaGears,
   FaPhoneVolume,
   FaSearchPlus,
 } from "react-icons/fa";
@@ -46,7 +46,7 @@ export const Links = [
     id: 2,
     url: "/services",
     text: "Services",
-    icon: <FaGear />,
+    icon: <FaGears />,
   },
   {
     id: 3,

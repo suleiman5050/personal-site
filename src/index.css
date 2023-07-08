@@ -94,7 +94,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-primary-9);
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -244,11 +244,11 @@ p {
 }
 .section {
   padding: 5rem;
-  /* background: var(--clr-grey-5); */
+  background: var(--clr-grey-5);
 }
 .services h2 {
   text-align: center;
-  color: white;
+  color: var(--clr-grey-10);
   margin-bottom: 4rem;
 }
 
@@ -258,7 +258,7 @@ p {
   gap: 1rem;
 }
 .service {
-  background: var(--clr-primary-5);
+  background: var(--clr-white);
   line-height: 1.5;
   letter-spacing: 1.2px;
   text-align: center;
@@ -297,7 +297,7 @@ p {
   background: none;
 }
 .readmore-btn {
-  color: #fff;
+  color: var(--clr-primary-10);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -316,11 +316,11 @@ p {
 }
 
 .experiences {
-  background: var(--clr-grey-5);
+  background: var(--clr-grey-3);
 }
 .experiences h2 {
   text-align: center;
-  color: white;
+  color: var(--clr-primary-8);
   margin-bottom: 5rem;
 }
 
@@ -341,7 +341,7 @@ p {
   font-weight: 700;
 }
 .big {
-  background: var(--clr-primary-9);
+  background: var(--clr-primary-8);
   text-align: center;
   font-size: 2rem;
   padding: 2rem 0;
@@ -349,6 +349,10 @@ p {
 .big .number {
   font-size: 4rem;
   font-weight: 600;
+  color: var(--clr-grey-5);
+}
+.big p {
+  color: var(--clr-grey-5);
 }
 
 @media screen and (min-width: 768px) {
@@ -388,6 +392,7 @@ p {
 } */
 .project {
   padding: 2rem 2rem;
+  background: var(--clr-grey-1);
 }
 .project-info {
   padding: 1rem;
@@ -397,12 +402,11 @@ p {
   margin-bottom: 3.5rem;
   line-height: 1.5;
   letter-spacing: 2px;
-  text-align: center;
 }
-.section-title {
-  text-align: center;
-  align-items: center;
+.section-title h2 {
   display: flex;
+  margin-bottom: 5rem;
+  justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -425,7 +429,7 @@ p {
 
 .news {
   padding: 5rem;
-  background: var(--clr-primary-2);
+  background: var(--clr-grey-4);
 }
 .news-header {
   margin-bottom: 3rem;
@@ -448,12 +452,18 @@ p {
   position: absolute;
   top: 0;
   right: 0;
-  background: var(--clr-grey-6);
+  background: var(--clr-grey-8);
   padding: 0.25rem 0.5rem;
 }
 .news-desc {
   padding: 0.75rem 0.5rem;
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-1);
+}
+.news-desc:hover {
+  box-shadow: var(--light-shadow);
+}
+.news-desc:hover {
+  box-shadow: var(--light-shadow);
 }
 .footer-links {
   display: grid;

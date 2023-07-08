@@ -3,11 +3,11 @@ import {
   FaHandshake,
   FaHome,
   FaFolderOpen,
-  FaGears,
   FaPhoneVolume,
   FaSearchPlus,
 } from "react-icons/fa";
 import { CiWheat } from "react-icons/ci";
+import { BsFillGearFill } from "react-icons/bs";
 // import { BsGear } from "react-icons/Bs";
 // import { AiOutlineFundProjectionScreen } from "react-icons/Ai";
 // import { MdPhoneInTalk } from "react-icons/Md";
@@ -46,7 +46,7 @@ export const Links = [
     id: 2,
     url: "/services",
     text: "Services",
-    icon: <FaGears />,
+    icon: <BsFillGearFill />,
   },
   {
     id: 3,

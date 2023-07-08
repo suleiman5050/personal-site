@@ -10,7 +10,7 @@ const Projects = () => {
         <article className="project">
           <div className="project-container">
             <img
-              src="./src/assets/images/project-1.jpg"
+              src="/src/assets/images/project-1.jpg"
               className="project-img"
               alt=""
             />
@@ -25,7 +25,7 @@ const Projects = () => {
         <article className="project">
           <div className="project-container">
             <img
-              src="./src/assets/images/project-2.jpg"
+              src="/src/assets/images/project-2.jpg"
               className="project-img"
               alt=""
             />
@@ -40,7 +40,7 @@ const Projects = () => {
         <article className="project">
           <div className="project-container">
             <img
-              src="./src/assets/images/project-3.jpg"
+              src="/src/assets/images/project-3.jpg"
               className="project-img"
               alt=""
             />
@@ -55,7 +55,7 @@ const Projects = () => {
         <article className="project">
           <div className="project-container">
             <img
-              src="./src/assets/images/project-4.jpg"
+              src="/src/assets/images/project-4.jpg"
               className="project-img"
               alt=""
             />

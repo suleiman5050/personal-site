@@ -18,20 +18,20 @@ export const services = [
     id: 1,
     icon: <FaHandshake />,
     text: "Business Consulting",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum.",
+    desc: "Our team of professionals provide advisory help to companies  and organizations to achieve their goals and streamline operations in  area of their businesses.",
   },
   {
     id: 2,
     icon: <CiWheat />,
     text: "Agribusiness Consulting",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum.",
+    desc: "Our team  give business, technical advice and support to farmers,food processing companies and exporters.",
   },
   {
     id: 3,
     url: "#services",
     icon: <FaShip />,
     text: "Commodity Export Advisory",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum.",
+    desc: "We export and provide advisory support and value adding services to commodity exporters.",
   },
 ];
 

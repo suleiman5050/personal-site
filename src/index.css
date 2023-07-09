@@ -215,6 +215,7 @@ p {
 .hero-info {
   max-width: 45rem;
 }
+
 .hero-info h1 {
   line-height: 1;
   margin: 2rem 0;
@@ -222,6 +223,10 @@ p {
 }
 .hero-info h4 {
   margin-bottom: 0.3rem;
+  color: var(--clr-white);
+}
+.hello {
+  margin-bottom: -1rem;
   color: var(--clr-white);
 }
 .hero-info p {
@@ -274,11 +279,16 @@ p {
 }
 
 .service h4 {
-  margin: 0;
+  margin-bottom: 1rem;
   font-weight: 500;
+  font-size: 1.3rem;
 }
 .service .desc {
   width: 10rem;
+}
+.service p {
+  line-height: 2;
+  letter-spacing: 2px;
 }
 @media screen and (min-width: 968px) {
   .services-center {

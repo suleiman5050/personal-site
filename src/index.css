@@ -188,8 +188,8 @@ p {
 }
 
 .hero {
-  background: linear-gradient(rgb(0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  /* url('./images/main.jpeg') center/cover no-repeat; */
+  background: linear-gradient(rgb(0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/hero.jpg") center/cover no-repeat;
   max-height: calc(100vh - 5rem);
   display: grid;
   place-items: center;
@@ -218,13 +218,16 @@ p {
 .hero-info h1 {
   line-height: 1;
   margin: 2rem 0;
+  color: var(--clr-white);
 }
 .hero-info h4 {
   margin-bottom: 0.3rem;
+  color: var(--clr-white);
 }
 .hero-info p {
   line-height: 1.8;
   letter-spacing: 1.3px;
+  color: var(--clr-white);
 }
 .hero-container {
   display: none;
@@ -277,7 +280,7 @@ p {
 .service .desc {
   width: 10rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 968px) {
   .services-center {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -489,7 +492,7 @@ p {
   color: var(--clr-primary-2);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 968px) {
   .news-center {
     grid-template-columns: repeat(3, 1fr);
   }

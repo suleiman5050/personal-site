@@ -484,9 +484,10 @@ p {
   box-shadow: var(--light-shadow);
 }
 .footer-links {
-  display: grid;
-  grid-template-rows: 1fr auto;
+  display: flex;
+  justify-content: center;
   padding: 1rem;
+  gap: 2rem;
 }
 .footer-link {
   padding: 0.25rem;

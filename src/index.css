@@ -189,7 +189,7 @@ p {
 
 .hero {
   background: linear-gradient(rgb(0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/hero.jpg") center/cover no-repeat;
+    url("../public/images/hero.jpg") center/cover no-repeat;
   max-height: calc(100vh - 5rem);
   display: grid;
   place-items: center;

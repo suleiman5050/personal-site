@@ -253,7 +253,7 @@ p {
 .section {
   padding: 5rem;
   background: var(--clr-grey-5);
-  max-width: 1170px;
+  /* max-width: 1170px; */
   margin: 0 auto;
 }
 .services h2 {
@@ -300,7 +300,7 @@ p {
   .services-center {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 95vw;
+    /* width: 95vw; */
   }
   .service {
     line-height: 2;

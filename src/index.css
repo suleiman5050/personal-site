@@ -264,8 +264,9 @@ p {
 
 .services-center {
   display: grid;
-  grid-template-columns: 1fr;
-  gap: 1rem;
+  gap: 2rem;
+  /*grid-template-columns: 1fr;
+  gap: 1rem; */
   max-width: 1170px;
   margin: 0 auto;
 }
@@ -302,7 +303,8 @@ p {
   .services-center {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* width: 95vw; */
+    gap: 2rem;
+    width: 95vw;
   }
   .service {
     line-height: 2;

@@ -270,6 +270,7 @@ p {
   justify-content: center;
   /* max-width: 1170px; */
   margin: 0 auto;
+  text-align: center;
 }
 .service {
   background: var(--clr-white);
@@ -277,6 +278,9 @@ p {
   letter-spacing: 1.2px;
   text-align: center;
   padding: 2rem 1rem;
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  gap: 1rem;
 }
 .service .icon {
   font-size: 3rem;
@@ -289,6 +293,7 @@ p {
 }
 
 .service h4 {
+  margin-top: 1rem;
   margin-bottom: 1rem;
   font-weight: 500;
   font-size: 1.3rem;
@@ -464,7 +469,7 @@ p {
 .news-center {
   display: grid;
   grid-template-columns: 1fr;
-  place-items: center;
+  justify-content: center;
   gap: 2rem;
 }
 .main-news {

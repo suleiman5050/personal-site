@@ -282,6 +282,10 @@ p {
   grid-template-rows: auto auto 1fr;
   gap: 1rem;
 }
+.hold {
+  max-width: 95vw;
+  margin: 0 auto;
+}
 .service .icon {
   font-size: 3rem;
   margin-bottom: 0;
@@ -473,7 +477,9 @@ p {
   gap: 2rem;
 }
 .main-news {
-  gap: 2rem;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /* gap: 2rem; */
 }
 .news-container {
   position: relative;
@@ -489,6 +495,13 @@ p {
 .news-desc {
   padding: 0.75rem 0.5rem;
   background: var(--clr-grey-1);
+}
+.news-btn {
+  padding: 1rem 0;
+}
+.news-btn:hover {
+  color: var(--clr-primary-5);
+  cursor: pointer;
 }
 .news-desc:hover {
   box-shadow: var(--light-shadow);
